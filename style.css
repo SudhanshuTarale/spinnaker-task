@@ -1,0 +1,97 @@
+html,body,head,table,div{
+    font-family:Calibri;
+}
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+.toplefttitle{
+    font-family:Calibri;
+    height: 7%;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.secondlefttitle{
+    font-family:Calibri;
+    height: 5%;
+    background-color: #07092d;
+    color: white;
+    margin-right: 1px solid white;
+
+}
+.secondrighttitle{
+    font-family:Calibri;
+    height: 5%;
+    background-color: #07092d;
+    color: white;
+
+}
+table{
+    border-collapse: collapse;
+    align-items: center;
+}
+.secondTable{
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+tr { border: none; }
+.names {
+  border-bottom: solid 1px white; 
+  text-align: center;
+  align-items: center;
+  /* border-left: solid 1px #f00; */
+}
+.dollar{
+   text-align: center;
+   font-size: 14px;
+}
+.stack{
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.piechart{
+    height: 20%; 
+    border: 1px solid black;
+}
+.stacktext{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+  /* a,
+  a:active,
+  a:focus,
+  button,
+  button:focus,
+  button:active,
+  .btn,
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn.focus:active,
+  .btn.active.focus {
+      outline: none;
+      outline: 0;
+  } */
+.left {
+	height: 25px;
+	width: 60px;
+    float:left;
+    background-color: red;
+    color: white;
+}
+.right {
+	height: 25px;
+	width: 200px;
+	color:black;
+    float:left;
+    background-color: sandybrown;
+}
+
+.clearFix {
+	clear:both;
+}
